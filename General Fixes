@@ -1,0 +1,39 @@
+:root {
+	/*Server list fix */
+  --guildsize: 57;
+  --columns: 1;
+    
+	/* TOPBAR TRANSPARENCY FIX */
+	.title_c38106  {
+    background: rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 0px rgba(0,0,0,0);
+}
+	/* Disables Activities Text */
+	.container__13cf1.membersGroup_c8ffbb.text-sm\/medium_cf4812.defaultColor__4bd52:nth-of-type(2) {
+	display: none;
+}
+
+	/* Discovery and Add Server */
+	.tutorialContainer__650eb, .scroller_ef3116 > .listItem__650eb {
+    display: none;
+}
+
+	/* Transparrent Messsagebox */
+	.channelTextArea_f75fb0, .stackedBars__74017, .channelAttachmentArea_b77158, .upload_aa605f {
+    background: none !important;
+}
+
+	/* Transparrent Folder Icon */
+	.folderIconWrapper__48112 {
+    background: none !important;
+}
+	/* Chatbox Padding */
+	.scrollerInner__36d07 {
+    padding-bottom: 1.5%;
+}
+
+	/* Server Icon Roundness */
+	.icon__6e9f8 {
+    border-radius: 50%;
+}
+  
